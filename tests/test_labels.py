@@ -11,6 +11,8 @@ def test_dynamic_labels():
     allure.dynamic.link("https://github.com", name="Testing")
     pass
 
+def test_no_labels():
+    pass
 
 @allure.tag("critical")
 @allure.severity(Severity.CRITICAL)
